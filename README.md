@@ -13,7 +13,7 @@ The fundamental principle is to use GNSS periodically to correct the global vehi
 
 ## KISS-ICP
 
-<img width="600" height="480" alt="kissicp-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/4cc543df-4699-4260-b5a6-6436a41ab8c7" />
+<img width="600" height="600" alt="kissicp-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/4cc543df-4699-4260-b5a6-6436a41ab8c7" />
 
 
 
