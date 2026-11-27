@@ -1,8 +1,10 @@
 # GNSS-LiDAR-Localization
-Localization based on GNSS and LiDAR measurements fusion, to achieve a high frequent pose estimate.
+Localization using GNSS and LiDAR-Odometry, to achieve a high frequency pose estimates and compare it against the ground truth
 
 ## Methodology
-We set up an automated driving localization stack in ROS2, using KISS-ICP for LIDAR Odometry and extending the problem by combining low-frequency GNSS measurements for improved pose estimation. The Fundamental principle is to use GNSS periodically to correct the global vehicle pose and Odometry to propogate vehicle pose between corrections. Overall, we have two sources of localization:
+We set up an automated driving localization stack in ROS2, using KISS-ICP for LIDAR Odometry and extending the problem by combining low-frequency GNSS measurements for improved pose estimation. 
+
+The fundamental principle is to use GNSS periodically to correct the global vehicle pose and Odometry to propogate vehicle pose between corrections. Overall, we have two sources of localization:
 
 **GNSS:** Absolute Geographical Position & Heading
 
